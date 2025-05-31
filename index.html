@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pesan Rahasia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+
+  <button id="reveal-button">Klik di sini untuk melihat pesan</button>
+
+  <div id="greeting-card" class="greeting-card" style="display: none;">
+    <div class="greeting-header">
+      <h1>Selamat Hari Bahagia!</h1>
+    </div>
+
+    <div class="photo-container">
+      <img id="photo" src="assets/photo.jpg" alt="Foto Ucapan">
+    </div>
+
+    <div class="message">
+      <p id="message-text">Semoga harimu menyenangkan!</p>
+    </div>
+
+    <button id="effect-btn">
+      <i class="fas fa-magic"></i> Tampilkan Kejutan
+    </button>
+  </div>
+
+  <!-- JavaScript diletakkan sebelum penutup body -->
+  <script src="main.js"></script>
+</body>
+</html>
